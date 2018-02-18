@@ -20,7 +20,80 @@
   <title
      id="title4161">Subnautica map</title>
   <defs
-     id="defs4" />
+     id="defs4">
+    <symbol
+       id="LifePodMarker">
+      <ellipse
+         ry="11.664276"
+         rx="16.325811"
+         cy="1981.2152"
+         cx="2016.6921"
+         id="path4429"
+         style="fill:#0000b9;fill-opacity:1;stroke:#000000;stroke-width:0.73266441;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         ry="5.3019438"
+         rx="15.946142"
+         cy="1994.3317"
+         cx="2016.6284"
+         id="path4427"
+         style="fill:#0000b9;fill-opacity:1;stroke:#000000;stroke-width:0.73266441;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         ry="1.5"
+         rx="0.5"
+         cy="1982.4817"
+         cx="2007.3235"
+         id="path4431"
+         style="fill:#0000b9;fill-opacity:1;stroke:#00fff8;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <use
+         height="100%"
+         width="100%"
+         transform="translate(20,0)"
+         id="use4441"
+         xlink:href="#path4431"
+         y="0"
+         x="0" />
+    </symbol>
+    <symbol
+       id="TPSource">
+      <rect
+         style="display:inline;fill:#fff229;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         width="32"
+         height="32"
+         x="780"
+         y="239.99998"
+         id="TPSourceRect" />
+    </symbol>
+    <symbol
+       id="TPTarget">
+      <ellipse
+         style="display:inline;fill:#ffc300;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.51706547px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         cx="799.00513"
+         cy="318.98965"
+         rx="7.741467"
+         ry="7.7414675"
+         id="TPTargetEllipse" />
+    </symbol>
+    <symbol
+       id="POIMarker">
+      <ellipse
+         style="display:inline;fill:#ffc300;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.51706547px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         cx="799.54016"
+         cy="191.29195"
+         rx="7.741467"
+         ry="7.7414675"
+         id="POIMarkerEllipse" />
+    </symbol>
+    <symbol
+       id="WreckMarker">
+      <ellipse
+         style="display:inline;fill:#ffc300;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="WreckMarkerEllipse"
+         cx="798.89532"
+         cy="133.29211"
+         rx="7.741467"
+         ry="7.7414675" />
+    </symbol>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -28,11 +101,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.66609459"
-     inkscape:cx="1888.4054"
-     inkscape:cy="1130.1166"
+     inkscape:zoom="0.2355"
+     inkscape:cx="2000"
+     inkscape:cy="2000"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layerWrecks"
      showgrid="true"
      units="px"
      showborder="true"
@@ -85,23 +158,67 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer7"
+     id="layerZones"
      inkscape:label="Zones"
-     style="display:inline" />
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000b9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2847"
+       y="1380.9999"
+       id="text3568"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3570"
+         x="2847"
+         y="1380.9999">Bulb zone (&quot;koosh&quot;)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005400;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1696.3854"
+       y="691.30762"
+       id="text3593"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.78655028,0.61752624,-0.61752624,0.78655028,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3595"
+         x="1696.3854"
+         y="691.30762">Mushroom forest</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#text3593"
+       id="use4425"
+       transform="matrix(0.62322408,0.78204331,-0.78204331,0.62322408,3276.7087,-272.7928)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:70px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2305.0713"
+       y="-687.28809"
+       id="text3560"
+       sodipodi:linespacing="125%"
+       transform="matrix(-0.00244043,0.99999702,-0.99999702,-0.00244043,0,0)"><tspan
+         sodipodi:role="line"
+         x="2305.0713"
+         y="-687.28809"
+         id="tspan3564">Sea Treaders</tspan></text>
+  </g>
   <g
      inkscape:label="Centerpoint"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,2947.6376)"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.5260998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 2000.263,-1047.6433 0.4739,199.99871"
        id="path3336"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.95982528px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 1900,-948.11763 200,0"
        id="path3338"
        inkscape:connector-curvature="0" />
@@ -109,7 +226,7 @@
        xml:space="preserve"
        id="flowRoot3340"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(38.708196,-2749.0086)"><flowRegion
+       transform="translate(257.89629,-2756.515)"><flowRegion
          id="flowRegion3342"><rect
            id="rect3344"
            width="953.21271"
@@ -120,9 +237,17 @@
          id="flowPara3443">(2000,2000) SVG coord</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
-     id="layer2"
+     id="layerMisc"
      inkscape:label="Misc"
      style="display:inline">
+    <use
+       x="0"
+       y="0"
+       xlink:href="#POIMarker"
+       id="use3438"
+       transform="translate(1167.4598,1842.7079)"
+       width="100%"
+       height="100%" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -134,76 +259,12 @@
          id="tspan4159"
          x="1957"
          y="2018">(-41,-42) Coral visible above surface</tspan></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4178"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(-8.826338,69.034451)"><flowRegion
-         id="flowRegion4180"><rect
-           id="rect4182"
-           width="218.80411"
-           height="21.248556"
-           x="774"
-           y="759"
-           style="font-size:12.5px" /></flowRegion><flowPara
-         id="flowPara4184">(1195,1128) (383m) Alien cache</flowPara></flowRoot>    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1142.1522"
-       y="1084.9249"
-       id="text4192"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4194"
-         x="1142.1522"
-         y="1084.9249">(-805,890) (220m) Blood oil + Deep shroom (for HCl)</tspan><tspan
-         sodipodi:role="line"
-         x="1142.1522"
-         y="1100.5499"
-         id="tspan4196" /><tspan
-         sodipodi:role="line"
-         x="1142.1522"
-         y="1116.1749"
-         id="tspan4198" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1285.1508"
-       y="853.45575"
-       id="text4206"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4208"
-         x="1285.1508"
-         y="853.45575">(-680,1113) Hole down to 590m</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1304.9923"
-       y="930.00775"
-       id="text4216"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4218"
-         x="1304.9923"
-         y="930.00775">(-720,1065) (580m) Blood Root tree</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 2386,912 28,-76 8,3 -28,76 z"
        id="path4220"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="2400"
-       y="774"
-       id="text4222"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4224"
-         x="2400"
-         y="774">Alien Cannon</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 3317,1650 128,5 111,233 -736,842 -390,-330 z"
@@ -218,6 +279,17 @@
        transform="translate(13.459839,672.70793)"
        width="100%"
        height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="776"
+       y="845.99988"
+       id="text7620"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7622"
+         x="776"
+         y="845.99988">(1195,1128) (383m) Alien cache</tspan></text>
     <use
        x="0"
        y="0"
@@ -226,6 +298,17 @@
        transform="translate(403.45984,910.70793)"
        width="100%"
        height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1142.1522"
+       y="1084.9249"
+       id="text4192"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4194"
+         x="1142.1522"
+         y="1084.9249">(-805,890) (220m) Blood oil + Deep shroom (for HCl)</tspan></text>
     <use
        x="0"
        y="0"
@@ -234,6 +317,17 @@
        transform="translate(528.45984,687.70793)"
        width="100%"
        height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1285.1508"
+       y="853.45575"
+       id="text4206"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4208"
+         x="1285.1508"
+         y="853.45575">(-680,1113) Hole down to 590m</tspan></text>
     <use
        x="0"
        y="0"
@@ -242,24 +336,27 @@
        transform="translate(488.45984,735.70793)"
        width="100%"
        height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#POIMarker"
-       id="use3438"
-       transform="translate(1167.4598,1842.7079)"
-       width="100%"
-       height="100%" />
-    <ellipse
-       style="display:inline;fill:#ffc300;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.51706547px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="POIMarker"
-       cx="799.54016"
-       cy="191.29195"
-       rx="7.741467"
-       ry="7.7414675" />
     <text
        xml:space="preserve"
-       style="display:inline;font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1304.9923"
+       y="930.00775"
+       id="text4216"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4218"
+         x="1304.9923"
+         y="930.00775">(-720,1065) (580m) Blood Root tree</tspan></text>
+    <use
+       xlink:href="#POIMarker"
+       id="use8434"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="824.97906"
        y="200.01033"
        id="text3504"
@@ -370,17 +467,117 @@
          sodipodi:role="line"
          x="2065.3843"
          y="2422.2556"
-         id="tspan3529">Jelloshroom cave,</tspan><tspan
+         id="tspan3529">Jellyshroom cave,</tspan><tspan
          sodipodi:role="line"
          x="2065.3843"
          y="2437.8806"
          id="tspan3531">Degasi base entry</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#POIMarker"
+       id="use3623"
+       transform="translate(852.45984,2024.7079)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1610.694"
+       y="2241.2725"
+       id="text3625"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3627"
+         x="1610.694"
+         y="2241.2725">(-356,-224)(110m)</tspan><tspan
+         sodipodi:role="line"
+         x="1610.694"
+         y="2256.8975"
+         id="tspan3629">Jellyshroom cave entry</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#POIMarker"
+       id="use3631"
+       transform="translate(94.459839,2465.7079)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="909.40131"
+       y="2644.7305"
+       id="text3502-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3504-6"
+         x="909.40131"
+         y="2644.7305">(-1114,-665)(690m)</tspan><tspan
+         sodipodi:role="line"
+         x="909.40131"
+         y="2660.3555"
+         id="tspan3651">Alien info,</tspan><tspan
+         sodipodi:role="line"
+         x="909.40131"
+         y="2675.9805"
+         id="tspan3653">Cuddlefish egg</tspan></text>
+    <rect
+       style="fill:#006fc9;fill-opacity:1;stroke:#000000;stroke-width:0.79637432;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rectAlienCannonMoonpool"
+       width="20.203627"
+       height="66.203629"
+       x="2573.6189"
+       y="-156.80336"
+       transform="matrix(0.93666933,0.35021502,-0.35021502,0.93666933,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2377.1763"
+       y="760.99573"
+       id="text4222"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4224"
+         x="2377.1763"
+         y="760.99573">Alien Cannon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="61.664936"
+       y="2607.8357"
+       id="textAlienCannonMoonpool"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.34309881,-0.93929932,0.93929932,0.34309881,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4389"
+         x="61.664936"
+         y="2607.8357">Alien moonpool</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1198"
+       y="2903"
+       id="text4397"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4399"
+         x="1198"
+         y="2903">Eye stalks</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
+     id="layerWrecks"
      inkscape:label="Wrecks"
      style="display:inline">
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use3510"
+       transform="translate(564.10468,1083.7078)"
+       width="100%"
+       height="100%" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -392,6 +589,14 @@
          id="tspan3390"
          x="1383.6221"
          y="1221.1311">(-645,775) (90m) Wreck (on top of tree)</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use3514"
+       transform="matrix(13.134393,0,0,3.1242231,-9848.0049,873.55353)"
+       width="100%"
+       height="100%" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -419,6 +624,14 @@
          x="760.58582"
          y="1353.8136"
          id="tspan3413">Cyclops shield &quot;card&quot;</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use3512"
+       transform="translate(559.10468,1858.7078)"
+       width="100%"
+       height="100%" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -446,6 +659,14 @@
          x="1377.9928"
          y="2059.7388"
          id="tspan4198-1" /></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use3516"
+       transform="translate(924.10468,2648.7078)"
+       width="100%"
+       height="100%" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -469,49 +690,6 @@
          x="1746.75"
          y="2826.375"
          id="tspan3428">Prawn suit grappling arm fragment</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1886"
-       y="2783"
-       id="text3422"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3424"
-         x="1886"
-         y="2783" /></text>
-    <use
-       x="0"
-       y="0"
-       xlink:href="#WreckMarker"
-       id="use3510"
-       transform="translate(564.10468,1083.7078)"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#WreckMarker"
-       id="use3512"
-       transform="translate(559.10468,1858.7078)"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#WreckMarker"
-       id="use3514"
-       transform="matrix(13.134393,0,0,3.1242231,-9848.0049,873.55353)"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#WreckMarker"
-       id="use3516"
-       transform="translate(924.10468,2648.7078)"
-       width="100%"
-       height="100%" />
     <use
        style="display:inline"
        x="0"
@@ -524,48 +702,48 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1253.1183"
-       y="2663.7224"
+       x="1251.1183"
+       y="2647.7224"
        id="text3459"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3462"
-         x="1253.1183"
-         y="2663.7224"
+         x="1251.1183"
+         y="2647.7224"
          style="font-size:12.5px">(-780,-715)(210m)</tspan><tspan
          sodipodi:role="line"
-         x="1253.1183"
-         y="2679.3474"
+         x="1251.1183"
+         y="2663.3474"
          id="tspan3464"
          style="font-size:12.5px">Moonpool fragments,</tspan><tspan
          sodipodi:role="line"
-         x="1253.1183"
-         y="2694.9724"
+         x="1251.1183"
+         y="2678.9724"
          id="tspan3466"
          style="font-size:12.5px">Prawn suit torpedo arm fragments,</tspan><tspan
          sodipodi:role="line"
-         x="1253.1183"
-         y="2710.5974"
+         x="1251.1183"
+         y="2694.5974"
          id="tspan3468"
          style="font-size:12.5px">Thermal Plant fragments,</tspan><tspan
          sodipodi:role="line"
-         x="1253.1183"
-         y="2726.2224"
+         x="1251.1183"
+         y="2710.2224"
          style="font-size:12.5px"
          id="tspan3470">Modificatioon station fragment,</tspan><tspan
          sodipodi:role="line"
-         x="1253.1183"
-         y="2741.8474"
+         x="1251.1183"
+         y="2725.8474"
          style="font-size:12.5px"
          id="tspan3472">Light stick fragment,</tspan><tspan
          sodipodi:role="line"
-         x="1253.1183"
-         y="2757.4724"
+         x="1251.1183"
+         y="2741.4724"
          style="font-size:12.5px"
          id="tspan3474">Reinforced dive suit Data box,</tspan><tspan
          sodipodi:role="line"
-         x="1253.1183"
-         y="2773.0974"
+         x="1251.1183"
+         y="2757.0974"
          style="font-size:12.5px"
          id="tspan3476">Power cell charger fragment</tspan></text>
     <use
@@ -588,13 +766,13 @@
          id="tspan3483"
          x="1219.8638"
          y="2870.6323">(-810,-875)(300m) Pod 19</tspan></text>
-    <ellipse
-       style="display:inline;fill:#ffc300;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="WreckMarker"
-       cx="798.89532"
-       cy="133.29211"
-       rx="7.741467"
-       ry="7.7414675" />
+    <use
+       xlink:href="#WreckMarker"
+       id="use8450"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -629,10 +807,179 @@
          x="1847"
          y="2407.625"
          id="tspan3521">Degasi base in Jellyshroom cave</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use3655"
+       transform="matrix(1.0000041,0,0,0.99999987,559.34287,2808.4663)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1371.524"
+       y="2936.8936"
+       id="text3481-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3483-3"
+         x="1371.524"
+         y="2936.8936">(-650,-950)(500m)</tspan><tspan
+         sodipodi:role="line"
+         x="1371.524"
+         y="2952.5186"
+         id="tspan3675">Degasi base</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use3542"
+       transform="translate(79.346142,2588.4663)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="912"
+       y="2732"
+       id="text3544"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3546"
+         x="912"
+         y="2732">(-1130,-730)(150m)</tspan><tspan
+         sodipodi:role="line"
+         x="912"
+         y="2747.625"
+         id="tspan3548">Cyclops shield generator data pad.</tspan><tspan
+         sodipodi:role="line"
+         x="912"
+         y="2763.25"
+         id="tspan3550">Cyclops bridge fragments,</tspan><tspan
+         sodipodi:role="line"
+         x="912"
+         y="2778.875"
+         id="tspan3558">Cyclops hull fragment,</tspan><tspan
+         sodipodi:role="line"
+         x="912"
+         y="2794.5"
+         id="tspan3556">Cyclops Decoy Tube Upgrade data pad,</tspan><tspan
+         sodipodi:role="line"
+         x="912"
+         y="2810.125"
+         id="tspan3554">Prawn suit fragment,</tspan><tspan
+         sodipodi:role="line"
+         x="912"
+         y="2825.75"
+         id="tspan3552">Prawn suit propulsion arm fragments</tspan></text>
+    <use
+       id="use8403"
+       xlink:href="#LifePodMarker"
+       transform="translate(336,-310)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2388"
+       y="1686.9999"
+       id="text3558"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3560"
+         x="2388"
+         y="1686.9999">(363,310) (110m) Pod 6</tspan></text>
+    <use
+       id="use8429"
+       xlink:href="#LifePodMarker"
+       transform="translate(1116,-565)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="3086"
+       y="1451.9999"
+       id="text3574"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3576"
+         x="3086"
+         y="1451.9999">(1116,565) (270m) Pod12</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use3573"
+       transform="translate(281.34614,1350.4663)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1095.5924"
+       y="1487.5005"
+       id="text3388-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3390-7"
+         x="1095.5924"
+         y="1487.5005">(-928,508) (180m) Pod 13</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#WreckMarker"
+       id="use4401"
+       transform="translate(414.34614,2633.4663)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1182.3986"
+       y="2793.1284"
+       id="text3481-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3483-8"
+         x="1182.3986"
+         y="2793.1284">(-795,-775)(200m) Need cutter</tspan><tspan
+         sodipodi:role="line"
+         x="1182.3986"
+         y="2808.7534"
+         id="tspan4421">Modification station fragments,</tspan><tspan
+         sodipodi:role="line"
+         x="1182.3986"
+         y="2824.3784"
+         id="tspan4423">Cyclops fire suppression system Databox</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1167.5039"
+       y="132.75826"
+       id="text4454"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4456"
+         x="1167.5039"
+         y="132.75826">Lifepod</tspan></text>
+    <use
+       id="use7892"
+       xlink:href="#LifePodMarker"
+       transform="translate(-882.81846,-1857.3556)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer5"
+     id="layerTeleporters"
      inkscape:label="Teleporters"
      style="display:inline">
     <text
@@ -768,13 +1115,6 @@
        id="path4235-2-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <rect
-       style="display:inline;fill:#fff229;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="TPSource"
-       width="32"
-       height="32"
-       x="780"
-       y="239.99998" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -786,13 +1126,6 @@
          id="tspan3447"
          x="862"
          y="267.99988">Teleporter pair, unlock point</tspan></text>
-    <ellipse
-       style="display:inline;fill:#ffc300;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.51706547px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="TPTarget"
-       cx="799.00513"
-       cy="318.98965"
-       rx="7.741467"
-       ry="7.7414675" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -936,10 +1269,127 @@
        id="path4235-2-3-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#TPSource"
+       id="use3517"
+       transform="translate(1652,2369.9999)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2475.3027"
+       y="2628.5732"
+       id="text3432-9-4-7-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="2475.3027"
+         y="2628.5732"
+         id="tspan3477-9-5-7">(430,-644)(1510m)</tspan><tspan
+         sodipodi:role="line"
+         x="2475.3027"
+         y="2644.1982"
+         id="tspan3551">TP back to above pool</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2488"
+       y="2624"
+       id="text3537"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3539"
+         x="2488"
+         y="2624" /></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#TPTarget"
+       id="use3541"
+       transform="translate(1547.9949,2156.0102)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2291.2771"
+       y="2498.334"
+       id="text3432-9-4-7-61"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="2291.2771"
+         y="2498.334"
+         id="tspan3477-9-5-2">(339,-483)(1434m)</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#00ab00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 2430.2855,2608.4819 -78.3938,-126.3958"
+       id="path4235-2-3-0-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#TPSource"
+       id="use3568"
+       transform="translate(1465,2032.9999)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2176.1008"
+       y="2263.1111"
+       id="text3432-9-4-7-61-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="2176.1008"
+         y="2263.1111"
+         id="tspan3477-9-5-2-1">(243,-307)(1585m)</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#00ab00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 2261.4265,2273.1747 2461.8134,634.38544"
+       id="path4235-2-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#TPTarget"
+       id="use3603"
+       transform="translate(1663.9949,308.01022)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2481.9412"
+       y="629.98846"
+       id="text4231-4-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="2481.9412"
+         y="629.98846"
+         id="tspan3457-4">(455,1365)(165m)</tspan></text>
+    <use
+       xlink:href="#TPSource"
+       id="use8408"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#TPTarget"
+       id="use8420"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
+     id="layerThermalVents"
      inkscape:label="Thermal vents"
      style="display:inline">
     <text
@@ -1080,6 +1530,52 @@
        transform="translate(906,1783.9999)"
        width="100%"
        height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#ThermalVentMarker"
+       id="use4368"
+       transform="translate(1133,2058.9999)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1897.203"
+       y="2459.2649"
+       id="text4370"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4372"
+         x="1897.203"
+         y="2459.2649">(-76,-445)(50m)</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#ThermalVentMarker"
+       id="use3562"
+       transform="translate(2173,1142.9999)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2993"
+       y="1525.9999"
+       id="text3564"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3566"
+         x="2993"
+         y="1525.9999">(964,471) (260m)</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#ThermalVentMarker"
+       id="use3578"
+       transform="translate(2356,1048.9999)"
+       width="100%"
+       height="100%" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1103,20 +1599,18 @@
          sodipodi:role="line"
          x="742.46216"
          y="63.313889"
-         id="tspan3461">Symbols to use. <tspan
-   style="font-weight:bold;font-size:40px"
-   id="tspan4411">Clone</tspan> these into target layer, to allow automatic visual update of all linked markers when master copy is updated.</tspan></text>
+         id="tspan3461">Symbols to use. These are instances of them. Only for display purposes. Please see the document's Symbols library.</tspan></text>
   </g>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:180px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="78.36805"
      y="3752.2405"
-     id="text3446"
+     id="textAurora"
      sodipodi:linespacing="125%"
      transform="matrix(0.6703842,-0.74201417,0.74201417,0.6703842,0,0)"><tspan
        sodipodi:role="line"
-       id="tspan3448"
+       id="tspanAurora"
        x="78.36805"
        y="3752.2405">Aurora</tspan></text>
 </svg>
